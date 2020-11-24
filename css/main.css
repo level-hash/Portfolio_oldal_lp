@@ -1,0 +1,225 @@
+/*fooldalon is használt elemek*/
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+body{
+	background-color: lightblue;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding-bottom: 70px;
+}
+.cim{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+#focim{
+	color:blue;
+	position: relative;
+	font-family: Source Sans Pro;
+	padding: 12px;
+	background: rgba(255,255,255,.6);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	margin: 0 auto;
+	font-size: 250%;
+	border-radius: 10px;
+}
+.menu{
+	text-align: center;
+	width: 100%;
+}
+li {
+	display: inline-block;
+	overflow: hidden;
+    background-color: #666;
+    list-style: none;
+    position: sticky;
+    top: 30px;
+    padding: 10px;
+}
+li a {
+
+	text-decoration: none;
+	color: white;
+	font-family: Source Sans Pro;
+	font-weight: lighter;
+	font-size: 1.5rem;
+	padding: 0 29px;
+	
+}
+li a:hover{
+	color:blue;
+	background-color: #AAA;
+}
+li:hover{
+	background-color: #AAA;
+}
+p{
+	font-family: Source Sans Pro;
+}
+
+.bemutat{
+	font-family: 'Rubik', sans-serif;
+	position: 40px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 1.25rem;
+	margin: 20px 10px 10px 10px;
+	mix-blend-mode: normal;
+
+}
+img{
+	border: 1px solid grey;
+}
+footer{
+	color: #CCC;
+	background: #555;
+	margin-top: 20%;
+	height: 10%;
+	mix-blend-mode: normal;
+	position: fixed;
+	bottom: 0px;
+	width: 98%;
+
+}
+.footer-friss{
+	float: right;
+	margin-top: 40px;
+	font-size: 0.75rem;
+}
+.face{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+
+}
+.tel{
+	float: left;
+	padding: 10px;
+}
+.email{
+	float: left;
+	padding: 10px;
+	color: green;
+	text-decoration: none;
+
+}
+.elerhet{
+	float: left;
+	padding: 10px;
+
+}
+/*a főoldalon nem használt elemek*/
+/*tanulmányok oldal*/
+.iskola{
+	display: flex;
+	position: relative;
+	width: 55%;
+	height: 7%;
+	max-width: 100vh;
+	max-height:20vh; 
+	margin-bottom: 2vh;
+	color: #BBB;
+	font-size: 3vh;
+	margin-right: auto;
+	margin-left:auto;
+	text-align: center;
+}
+.iskola:hover{
+	background-color: #333;
+	color:orange;
+
+}
+.fooldal:hover{
+	color:red;
+}
+
+.tanulmany{
+	font-family: 'Rubik', sans-serif;
+	position: 40px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 1.28rem;
+	margin: 20px 10px 10px 10px;
+	mix-blend-mode: normal;
+	padding-bottom: 5vh;
+	align-items: center;
+}
+.iskolak{
+	text-align: center;
+	align-items: center;
+}
+/*projekt oldal*/
+.evszam{
+	float: right;
+	margin-right: 30vh;
+	text-align: center;
+	margin-bottom: 1vh;
+}.
+.projektnevek{
+	text-align: left;
+	font-size: 1.2em;
+	margin-left: 30vh;
+}
+.projektbemutat{
+	font-family: 'Rubik', sans-serif;
+	position: 40px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	text-align: left;
+	font-size: 1.25rem;
+	margin: 20px 10px 10px 10px;
+	mix-blend-mode: normal;
+}
+h2#projektnev{
+	text-align: center;
+	padding-top: 4vh;
+}
+/*galéria oldal*/
+.profilkepek{
+	font-family: 'Rubik', sans-serif;
+	position: 40px;
+	border-radius: 20px;
+	background: rgba(255,255,255,.7);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	text-align: center;
+	font-size: 1.25rem;
+	margin: 20px 10px 10px 10px;
+	mix-blend-mode: normal;
+
+}
+.kepeim{
+	margin-left: auto;
+  	margin-right: auto;
+  	display: block;
+	float: left;
+	margin: 2vh;
+	padding:1vh;
+	margin-bottom: 12vh;
+	width: 46%;
+	align-items: center;
+	
+}
+.profilkepek::after{
+	content: "";
+  clear: both;
+  display: table;
+}
+
+
+/*tervek oldal*/
+.kifejtes{
+	display: block;
+	text-align: left;
+	padding: 5vh;
+}
+.behuz{
+	padding-top: 4vh;
+	padding-left: 4vh;
+}
